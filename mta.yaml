@@ -18,6 +18,11 @@ modules:
       properties:
          url: ${default-url}
 
+
+ - name: tinyuri
+   type: html5
+   path: tinyuri
+
 resources:
  - name: hdi_tinydb
    properties:
