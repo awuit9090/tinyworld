@@ -1,3 +1,3 @@
-$.response.contentType = "text/plain";
+$.response.contentType = "text/html";
 
-$.response.setBody("Hello World");
+$.response.setBody("It's a tiny JS World");
