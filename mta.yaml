@@ -13,8 +13,8 @@ modules:
    type: nodejs
    path: tinyjs
    requires:
-    – name: tinydb
-    – name: hdi-container
+    - name: tinydb
+    - name: hdi-container
    provides:
     - name: tinyjs_api
       properties:
