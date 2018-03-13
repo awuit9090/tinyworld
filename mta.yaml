@@ -12,11 +12,9 @@ modules:
  - name: tinyjs
    type: nodejs
    path: tinyjs
-# ——— dependency on DB
    requires:
     – name: tinydb
     – name: hdi-container
-# ——— exposes SERVICE URL to consumers
    provides:
     - name: tinyjs_api
       properties:
